@@ -27,6 +27,21 @@
 .g-board > div {
     width: 80px;
     height: 80px;
+
+}
+
+
+
+.g-board > div > div{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+div {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /* TEST 2 background color*/
@@ -45,7 +60,7 @@
 
 /* coordonné emplacement */
 
-.A8{
+.A8 {
     grid-area: A8;
 }
 .B8{

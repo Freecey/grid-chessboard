@@ -1,17 +1,82 @@
 
-.black-Pawn-1
-.black-Pawn-2
-.black-Pawn-3
-.black-Pawn-4
-.black-Pawn-5
-.black-Pawn-6
-.black-Pawn-7
-.black-Pawn-8
-.black-Bishop-1
-.black-Bishop-2
-.black-Knight-1
-.black-Knight-2
-.black-Rook-1
-.black-Rook-2
-.black-Queen
-.black-King
+#black-Pawn-1 { 
+    grid-area: A2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-2 { 
+    grid-area: B2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-3 { 
+    grid-area: C2;
+    background-image: url(../img/b/006-pawn.svg);    
+    filter: invert(100%);
+}
+#black-Pawn-4 { 
+    grid-area: D2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-5 { 
+    grid-area: E2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-6 { 
+    grid-area: F2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-7 { 
+    grid-area: G2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-8 { 
+    grid-area: H2;
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Rook-1 { 
+    grid-area: A1;
+    background-image: url(../img/b/003-rook.svg);
+    filter: invert(100%);
+}
+#black-Rook-2 { 
+    grid-area: H1;
+    background-image: url(../img/b/003-rook.svg);
+    filter: invert(100%);
+}
+#black-Knight-1 { 
+    grid-area: B1;
+    background-image: url(../img/b/005-knight.svg);
+    filter: invert(100%);
+}
+#black-Knight-2 { 
+    grid-area: G1;
+    background-image: url(../img/b/005-knight.svg);
+    filter: invert(100%);
+}
+
+#black-Bishop-1 { 
+    grid-area: C1;
+    background-image: url(../img/b/004-bishop.svg);
+    filter: invert(100%);
+}
+#black-Bishop-2 { 
+    grid-area: F1;
+    background-image: url(../img/b/004-bishop.svg);
+    filter: invert(100%);
+}
+#black-Queen { 
+    grid-area: E1;
+    background-image: url(../img/b/002-queen.svg);
+    filter: invert(100%);
+}
+#black-King { 
+    grid-area: D1;
+    background-image: url(../img/b/001-king.svg);
+    filter: invert(100%);
+}
