@@ -1,15 +1,12 @@
-
 .grid-board {
     display: grid;
     grid-template-columns: repeat(8, 80px);
-    grid-template-rows: repeat(8, 80px);
+    grid-template-rows: 25px repeat(8, 80px) 25px;
     width: 640px;
-    height: 640px;
-    margin: 20px;
+    margin: auto;
     border: 25px solid #333;
-    margin-left: auto;
-    margin-right: auto;
     grid-template-areas: 
+    "A9 B9 C9 D9 E9 F9 G9 H9" /* empty ligne for lettre ligne */
     "A8 B8 C8 D8 E8 F8 G8 H8"
     "A7 B7 C7 D7 E7 F7 G7 H7" 
     "A6 B6 C6 D6 E6 F6 G6 H6" 
@@ -17,17 +14,20 @@
     "A4 B4 C4 D4 E4 F4 G4 H4" 
     "A3 B3 C3 D3 E3 F3 G3 H3" 
     "A2 B2 C2 D2 E2 F2 G2 H2" 
-    "A1 B1 C1 D1 E1 F1 G1 H1";
-    font-size: 80px;
-    background-image: url(../img/chessboard.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    "A1 B1 C1 D1 E1 F1 G1 H1"
+    /*"bottom" */;
 }
 
-.g-board > div {
+div.grid-board {
+    background-image: url(../img/chessboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 640px 640px;
+}
+
+.g-board > div > div{
     width: 80px;
     height: 80px;
-
 }
 
 
@@ -58,7 +58,80 @@ div {
   }
 */
 
+/* numerotaion de case */
+
+.wrapper-inner{
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    align-items: strech;
+}
+
+.box-inner{
+    text-align: center;
+    align-self: center;
+}
+
+.top,
+.bottom{
+  display: grid;
+  align-items: stretch;
+  background-color: #005c91;
+  height: 25px; 
+}
+
+.top {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.bottom {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 10;
+    grid-row-end: 10;
+}
+
+
+
 /* coordonné emplacement */
+/*
+.gridtop {
+    grid-area: top;
+}
+.gridbottom {
+    grid-area: bottom;
+}
+*/
+
+.A9 {
+    grid-area: A8;
+}
+.B9{
+    grid-area: B8;
+}
+.C9{
+    grid-area: C8;
+}
+.D9{
+    grid-area: D8;
+}
+.E9{
+    grid-area: E8;
+}
+.F9{
+    grid-area: F8;
+}
+.G9{
+    grid-area: G8;
+}
+.H9{
+    grid-area: H8;
+}
+
 
 .A8 {
     grid-area: A8;
