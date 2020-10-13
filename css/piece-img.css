@@ -1,0 +1,116 @@
+#white-Pawn-1 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-2 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-3 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-4 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-5 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-6 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-7 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+#white-Pawn-8 { 
+    background-image: url(../img/b/006-pawn.svg);
+}
+
+#white-Rook-1 { 
+    background-image: url(../img/b/003-rook.svg);
+}
+#white-Rook-2 { 
+    background-image: url(../img/b/003-rook.svg);
+}
+#white-Knight-1 { 
+    background-image: url(../img/b/005-knight.svg);
+}
+#white-Knight-2 { 
+    background-image: url(../img/b/005-knight.svg);
+}
+#white-Bishop-1 { 
+    background-image: url(../img/b/004-bishop.svg);
+}
+#white-Bishop-2 { 
+    background-image: url(../img/b/004-bishop.svg);
+}
+#white-Queen { 
+    background-image: url(../img/b/002-queen.svg);
+}
+#white-King { 
+    background-image: url(../img/b/001-king.svg);
+}
+
+
+#black-Pawn-1 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-2 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-3 { 
+    background-image: url(../img/b/006-pawn.svg);    
+    filter: invert(100%);
+}
+#black-Pawn-4 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-5 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-6 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-7 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Pawn-8 { 
+    background-image: url(../img/b/006-pawn.svg);
+    filter: invert(100%);
+}
+#black-Rook-1 { 
+    background-image: url(../img/b/003-rook.svg);
+    filter: invert(100%);
+}
+#black-Rook-2 { 
+    background-image: url(../img/b/003-rook.svg);
+    filter: invert(100%);
+}
+#black-Knight-1 { 
+    background-image: url(../img/b/005-knight.svg);
+    filter: invert(100%);
+}
+#black-Knight-2 { 
+    background-image: url(../img/b/005-knight.svg);
+    filter: invert(100%);
+}
+
+#black-Bishop-1 { 
+    background-image: url(../img/b/004-bishop.svg);
+    filter: invert(100%);
+}
+#black-Bishop-2 { 
+    background-image: url(../img/b/004-bishop.svg);
+    filter: invert(100%);
+}
+#black-Queen { 
+    background-image: url(../img/b/002-queen.svg);
+    filter: invert(100%);
+}
+#black-King { 
+    background-image: url(../img/b/001-king.svg);
+    filter: invert(100%);
+}

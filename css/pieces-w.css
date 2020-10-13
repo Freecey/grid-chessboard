@@ -1,69 +1,49 @@
-
-
 #white-Pawn-1 { 
     grid-area: A7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-2 { 
     grid-area: B7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-3 { 
     grid-area: C7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-4 { 
     grid-area: D7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-5 { 
     grid-area: E7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-6 { 
     grid-area: F7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-7 { 
     grid-area: G7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 #white-Pawn-8 { 
     grid-area: H7;
-    background-image: url(../img/b/006-pawn.svg);
 }
 
 #white-Rook-1 { 
     grid-area: A8;
-    background-image: url(../img/b/003-rook.svg);
 }
 #white-Rook-2 { 
     grid-area: H8;
-    background-image: url(../img/b/003-rook.svg);
 }
 #white-Knight-1 { 
     grid-area: B8;
-    background-image: url(../img/b/005-knight.svg);
 }
 #white-Knight-2 { 
     grid-area: G8;
-    background-image: url(../img/b/005-knight.svg);
 }
-
 #white-Bishop-1 { 
     grid-area: C8;
-    background-image: url(../img/b/004-bishop.svg);
 }
 #white-Bishop-2 { 
     grid-area: F8;
-    background-image: url(../img/b/004-bishop.svg);
 }
 #white-Queen { 
     grid-area: D8;
-    background-image: url(../img/b/002-queen.svg);
 }
 #white-King { 
     grid-area: E8;
-    background-image: url(../img/b/001-king.svg);
 }
-
